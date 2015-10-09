@@ -21,6 +21,11 @@ public class StoreHandler {
 		System.out.println(b.getName()+" number is : "+b.getNumber());
 		System.out.println(c.getName()+" number is : "+c.getNumber());
 		System.out.println(d.getName()+" number is : "+d.getNumber());
+		
+		System.out.println("Sunddenly customer get to spa  initilized\n");
+		
+		Customer man=new Customer("Teerawut",a);
+		man.getCustomerDetail();
 	}
 	
 }
