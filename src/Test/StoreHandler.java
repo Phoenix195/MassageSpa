@@ -2,7 +2,7 @@ package Test;
 
 public class StoreHandler {
 
-	public static void main(String arg[])
+	public static void main(String[] args)
 	{
 		
 		System.out.println("Bar openning");
