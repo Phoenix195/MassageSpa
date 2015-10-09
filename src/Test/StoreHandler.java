@@ -24,8 +24,15 @@ public class StoreHandler {
 		
 		System.out.println("Sunddenly customer get to spa  initilized\n");
 		
-		Customer man=new Customer("Teerawut",a);
+		Customer man=new Customer("Teerawut",c);
 		man.getCustomerDetail();
+		
+		System.out.println(man.getGirlName()+" Status :"+man.getGirlStatus());
+		
+		man.checkOutGirl();
+		
+		System.out.println("-----The man has checked out");
+		System.out.println(man.getGirlName()+" Status :"+man.getGirlStatus());
 	}
 	
 }
