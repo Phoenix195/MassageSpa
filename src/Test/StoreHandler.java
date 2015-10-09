@@ -17,10 +17,7 @@ public class StoreHandler {
 		
 		System.out.println("Girls have already been  initilized\n");
 		
-		System.out.println(a.getName()+" number is : "+a.getNumber());
-		System.out.println(b.getName()+" number is : "+b.getNumber());
-		System.out.println(c.getName()+" number is : "+c.getNumber());
-		System.out.println(d.getName()+" number is : "+d.getNumber());
+		
 	}
 	
 }
